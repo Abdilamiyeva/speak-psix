@@ -331,6 +331,82 @@ color:#00B9B6;
   }
   /* adventage */
   
+/* steps start */
+.steps-heading > p {
+  color: #00b9b6;
+}
+.steps-inner {
+  display: flex;
+  padding: 70px 0 0 0;
+}
+.steps-shelf {
+  position: relative;
+  padding: 30px;
+  & img {
+    position: absolute;
+    top: 0;
+    left: -20px;
+  }
+}
+.steps-shelf > h1 {
+  font-size: 20px;
+
+  text-align: left;
+}
+.steps-shelf > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.steps-img {
+  padding: 0 0 0 50px;
+}
+.about-heading {
+  font-size: 36px;
+  padding: 120px 0 30px 400px;
+}
+iframe {
+  border-radius: 20px;
+}
+.yt-video {
+  display: flex;
+}
+.about-reg {
+  padding: 40px 95px;
+
+  & h1 {
+    color: #ffa800;
+  }
+}
+.selection-about {
+  display: flex;
+  padding: 67px 0 0 0;
+}
+.selection-late {
+  display: flex;
+  width: 550px;
+  height: 120px;
+  padding: 20px 30px 20px 30px;
+  gap: 10px;
+  border-radius: 24px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 15px 25px 0px #0000000D;
+
+}
+.selection-now {
+  display: flex;
+  width: 550px;
+  height: 120px;
+  padding: 20px 30px 20px 30px;
+  gap: 10px;
+  border-radius: 24px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 15px 25px 0px #0000000D;
+
+}
+/* steps end */
+
 /* footer beginning*/
 
 footer {
