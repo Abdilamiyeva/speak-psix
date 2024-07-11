@@ -244,6 +244,93 @@ color:#00B9B6;
     background-color: #00B9B6;
 }
  /* speaker end */
+/* help */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .text {
+    margin-bottom: 15px;
+  }
+  .help {
+    padding-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    gap: 8%;
+    align-items: center;
+  }
+  .father {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .divs {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .child {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .child2 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .child3 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .child4 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .child5 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .child6 {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .adventage {
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    background-color: aquamarine;
+    width: 1120px;
+    height: 519px;
+    padding-bottom: 50px;
+  margin: 0 auto;
+   
+  
+    border-radius: 24px;
+  
+    border-radius: 24px;
+  }
+  .text1 > h1 {
+    margin-bottom: 40px;
+  }
+  .psix {
+    margin-top: 9px;
+    margin-bottom: 15px;
+  }
+  .github {
+    margin-top: 9px;
+    margin-bottom: 15px;
+  }
+  .adventage > img {
+   height: 540px;
+  
+  }
+  /* adventage */
+  
 /* steps start */
 .steps-heading > p {
   color: #00b9b6;
