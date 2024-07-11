@@ -1,4 +1,16 @@
-*{
+/* Font beginning*/
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body,
+button,
+input {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    /* font-size default */
+}
+
+/* Font end */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +18,145 @@
     text-decoration: none;
 }
 
-.container{
+
+.container {
     max-width: 1236px;
     margin: 0 auto;
 }
 
+
+:root {
+    --nav-color: rgba(51, 51, 51, 1);
+}
+
 /* header start  */
+nav {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .n-logo {
+        max-width: 183px;
+        max-height: 36px;
+    }
+
+    & .n-menu {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+
+        &>li>a {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: center;
+            color: var(--nav-color);
+            text-decoration: none;
+        }
+    }
+
+    & .n-buttons {
+        display: flex;
+        gap: 20px;
+
+        &>div {
+            width: 75px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            /* Fonty style */
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-transform: uppercase;
+        }
+
+        &>button {
+            background: rgba(0, 185, 182, 1);
+            padding: 12px 30px;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            /* Font style */
+            font-weight: 700;
+            line-height: 19.2px;
+            color: #fff;
+        }
+    }
+}
 
 /* header end */
+
+/* footer beginning*/
+
+footer {
+    &>.container {
+        display: flex;
+
+        &>.table1 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            justify-content: flex-start;
+
+            &>.t1-menu {
+                display: flex;
+                gap: 30px;
+
+                &>div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                }
+
+                & a {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 21.6px;
+                    text-align: left;
+                    text-decoration: none;
+                    color: var(--nav-color);
+                }
+            }
+        }
+
+        &>.table2 {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            justify-content: flex-start;
+
+            &>.t2-socials {
+                display: flex;
+                gap: 20px;
+            }
+
+            &>.t2-info {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                &>a {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    /* Font style */
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 21.6px;
+                    text-decoration: none;
+                    color: var(--nav-color);
+                }
+            }
+        }
+    }
+}
+
+
+/* footer end */
